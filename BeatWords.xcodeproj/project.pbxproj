@@ -19,6 +19,7 @@
 		30BEA77A184559FF001D2998 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BEA762184559FF001D2998 /* UIKit.framework */; };
 		30BEA782184559FF001D2998 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30BEA780184559FF001D2998 /* InfoPlist.strings */; };
 		30BEA784184559FF001D2998 /* BeatWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BEA783184559FF001D2998 /* BeatWordsTests.m */; };
+		30BEA78E18455F29001D2998 /* schedule.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 30BEA78D18455F29001D2998 /* schedule.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		30BEA77F184559FF001D2998 /* BeatWordsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeatWordsTests-Info.plist"; sourceTree = "<group>"; };
 		30BEA781184559FF001D2998 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		30BEA783184559FF001D2998 /* BeatWordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatWordsTests.m; sourceTree = "<group>"; };
+		30BEA78D18455F29001D2998 /* schedule.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = schedule.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				30BEA767184559FF001D2998 /* InfoPlist.strings */,
 				30BEA76A184559FF001D2998 /* main.m */,
 				30BEA76C184559FF001D2998 /* BeatWords-Prefix.pch */,
+				30BEA78D18455F29001D2998 /* schedule.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BEA78E18455F29001D2998 /* schedule.rtf in Resources */,
 				30BEA769184559FF001D2998 /* InfoPlist.strings in Resources */,
 				30BEA771184559FF001D2998 /* Images.xcassets in Resources */,
 			);
@@ -444,6 +448,7 @@
 				30BEA789184559FF001D2998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30BEA78A184559FF001D2998 /* Build configuration list for PBXNativeTarget "BeatWordsTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +457,7 @@
 				30BEA78C184559FF001D2998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
